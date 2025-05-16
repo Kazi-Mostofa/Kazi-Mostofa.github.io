@@ -52,7 +52,7 @@
   <h2>Research & Publications</h2>
   <ul>
     <li><b>Microgrid Economic Dispatch and Energy Management Optimization for Tok, Alaska</b><br>
-      <i>Research project in collaboration with DOE and GE Vernova | Aug 2024 – Present</i><br>
+      <i>Research project in collaboration with DOE and GE Vernova | January 2025 – Present</i><br>
       • Developed a microgrid model integrating solar, BESS, and CHP to find optimal and cost-effective solutions.<br>
       • Implemented a penalty stack variable for efficient thermal energy management.<br>
       • Integrated short-term load forecasting models to enhance scheduling and dispatch accuracy.
