@@ -1,54 +1,88 @@
-<h1>Hi, I'm Kazi Zehad Moatofa! <br/><a href="https://github.com/KaziMostofa">Electrical Engineer</a>, <a href="https://www.linkedin.com/in/kmzehad/">Renewable Energy Engineer, Load Forecasting Engineer, Sustainable Building Energy Designer </a>, 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kazi Zehad Mostofa | Energy Systems Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Kazi Zehad Mostofa</h1>
+    <p>Renewable Energy Researcher | Load Forecasting Engineer | Sustainable Systems Designer</p>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#publications">Publications</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<h2>👨‍💻 Software Development Projects:</h2>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a graduate student in Electrical and Computer Engineering at Clarkson University, specializing in load forecasting, energy modeling, and renewable energy systems. My research bridges data science with sustainable design for net-zero energy solutions.
+    </p>
+  </section>
 
-- <b>Data Structures and Algorithms Practice (AlgoExpert)</b>
-  - [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
-- <b>Full Stack Web App (React, NodeJS, Azure, and Machine Learning Components)</b>
-  - [Image Analysis Middleware](https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964) <b><i>(Potentially NSFW)</b></i>
-- <b>PowerShell</b>
-  - [Windows EventLog: Failed RDP Logins Source IP to full GeoData Conversion](https://github.com/joshmadakor1/Sentinel-Lab)
-  - [JWipe (Disk Wiping Utility)](https://github.com/joshmadakor1/Jwipe.PowerShell)
-  - [Active Directory Bulk User Creation](https://github.com/joshmadakor1/AD_PS)
-  - [FIM (File Integrity Monitor)](https://github.com/joshmadakor1/PowerShell-Integrity-FIM)
-- <b>C# (.NET Desktop Applications)</b>
-  - [Ransomware Proof of Concept (Encrypter)](https://github.com/joshmadakor1/EncrypterPOC)
-  - [Ransomware Proof of Concept (Decrypter)](https://github.com/joshmadakor1/DecrypterPOC)
-  - [Keylogger with Email Capability](https://github.com/joshmadakor1/Key-Logger-With-Email)
-- <b>Python</b>
-  - [Package Delivery Application (Datastructures and Algorithms Demo)](https://github.com/joshmadakor1/Package-Delivery-Pathfinding-Algorithm)
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <ul>
+      <li><b>⚡ Probabilistic Load Forecasting</b><br>
+        <i>24-hour energy demand forecasting using Quantile CatBoost.</i>
+        <br><a href="https://github.com/KaziMostofa/quantile-catboost-load-forecasting">GitHub Repository</a>
+      </li>
+      <li><b>📈 MVLR + Seasonal Encoding</b><br>
+        <i>Multi-variable regression for thermal/electrical load using sin/cos time features.</i>
+        <br><a href="https://github.com/KaziMostofa/mvlr-seasonal-load-forecasting">GitHub Repository</a>
+      </li>
+      <li><b>🌱 Wind Farm Feasibility Analysis</b><br>
+        <i>71.4 MW onshore wind farm design in Vietnam.</i>
+        <br><a href="https://github.com/KaziMostofa/wind-farm-conceptual-design">GitHub Repository</a>
+      </li>
+      <li><b>🔧 CHP Optimization with MILP</b><br>
+        <i>Dispatch and grid interaction of combined heat and power systems.</i>
+        <br><a href="https://github.com/KaziMostofa/chp-microgrid-dispatch">GitHub Repository</a>
+      </li>
+    </ul>
+  </section>
 
-<h2>📺 Popular YouTube Videos</h2>
+  <section id="publications">
+    <h2>Research & Publications</h2>
+    <ul>
+      <li><b>Machine Learning-Enhanced All-PV Blended Systems</b><br>
+        <i>Sustainable Energy Technologies and Assessments, Jan 2024</i>
+      </li>
+      <li><b>Hybrid Energy Storage Using Buck-Boost Converter</b><br>
+        <i>IJRER, Feb 2025</i>
+      </li>
+      <li><b>IoT-Based Solar PV Monitoring System</b><br>
+        <i>ICRERA Conference, 2022</i>
+      </li>
+    </ul>
+  </section>
 
-- [How to get into Cybersecurity Starting From Zero](https://www.youtube.com/watch?v=a83ASGn_V_s)
-- [A Day in the Life of a Cybersecurity Anayst](https://www.youtube.com/watch?v=uHy3oM7NnoU)
-- [How to Create a KeyLogger (C#)](https://www.youtube.com/watch?v=N-L9hklSlNk)
-- [Ransomware Demonstration (C#)](https://www.youtube.com/watch?v=OfvdQeh79s0)
-- [Is WGU Legit?](https://www.youtube.com/watch?v=E2MwRWxDBkA)
+  <section id="skills">
+    <h2>Skills & Tools</h2>
+    <ul>
+      <li>Languages: Python, MATLAB, C++</li>
+      <li>Energy Tools: HOMER Pro, PSCAD, PSS/E</li>
+      <li>ML Libraries: CatBoost, scikit-learn, pandas</li>
+      <li>Visualization: matplotlib, Excel, Streamlit</li>
+      <li>Certifications: MATLAB, HOMER, Coursera ML</li>
+    </ul>
+  </section>
 
-<h2> 🤳 Connect with me:</h2>
+  <section id="contact">
+    <h2>Connect with Me</h2>
+    <p>
+      📧 <a href="mailto:kzmostofa@gmail.com">kzmostofa@gmail.com</a><br>
+      🔗 <a href="https://www.linkedin.com/in/kmzehad/">LinkedIn</a> | <a href="https://github.com/KaziMostofa">GitHub</a> | <a href="https://www.researchgate.net/profile/Kazi_Mostofa">ResearchGate</a>
+    </p>
+  </section>
 
-[<img align="left" alt="JoshMadakor | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="JoshMadakor | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="JoshMadakor | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="JoshMadakor | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
-
-[twitter]: https://twitter.com/joshmadakor
-[youtube]: https://www.youtube.com/c/joshmadakor
-[instagram]: https://www.instagram.com/joshmadakor/
-[linkedin]: https://linkedin.com/in/joshmadakor
-
-<!--
-**joshmadakor1/joshmadakor1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <footer>
+    <p>&copy; 2025 Kazi Zehad Mostofa. All rights reserved.</p>
+  </footer>
+</body>
+</html>
