@@ -25,7 +25,7 @@
   <section id="about">
     <h2>About Me</h2>
     <p>
-      Graduate researcher at Clarkson University (PhD, ECE) specializing in renewable energy, load forecasting, and sustainable systems. Skilled in CatBoost, RFR, MVLR, PV-hybrid systems, microgrid dispatch, and smart building analytics. Published in energy data science, IoT monitoring, and optimization.
+      Graduate Research Assistant at Clarkson University (PhD, ECE) specializing in renewable energy systems, microgrid optimization, and both deterministic and probabilistic load forecasting. Skilled in machine learning for energy modeling, smart building analytics, and IoT-based monitoring. Published in energy data science, optimization, and sustainable infrastructure.
     </p>
   </section>
 
