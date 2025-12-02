@@ -442,6 +442,169 @@ a:hover {
   color: white;
 }
 
+/* Education Timeline Styles */
+.education-timeline {
+  max-width: 1000px;
+  margin: var(--spacing-xl) auto 0;
+}
+
+.education-item {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+  padding-bottom: var(--spacing-xl);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.education-item:last-child {
+  border-bottom: none;
+}
+
+.education-year {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  padding-top: var(--spacing-xs);
+}
+
+.education-content {
+  background: var(--bg-primary);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-normal);
+}
+
+.education-content:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.education-content h3 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-xs);
+}
+
+.education-content h4 {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-sm);
+  font-weight: 500;
+}
+
+.education-content .institution {
+  font-size: 1.125rem;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-xs);
+  font-weight: 500;
+}
+
+.education-content .timeline {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.education-content .gpa {
+  font-size: 1rem;
+  color: var(--secondary-color);
+  margin-bottom: var(--spacing-md);
+}
+
+.education-details {
+  margin-top: var(--spacing-md);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.education-details ul {
+  margin-left: var(--spacing-md);
+  margin-top: var(--spacing-sm);
+}
+
+.education-details li {
+  margin-bottom: var(--spacing-xs);
+  color: var(--text-secondary);
+}
+
+/* Conferences Section Styles */
+.conferences-grid {
+  display: grid;
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-xl);
+}
+
+.conference-item {
+  background: var(--bg-primary);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-normal);
+  border-left: 4px solid var(--primary-color);
+}
+
+.conference-item:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateX(5px);
+}
+
+.conference-icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.conference-item h3 {
+  font-size: 1.375rem;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-sm);
+  font-weight: 600;
+}
+
+.conference-name {
+  font-size: 1.125rem;
+  color: var(--primary-color);
+  font-weight: 500;
+  margin-bottom: var(--spacing-xs);
+}
+
+.conference-location {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-md);
+}
+
+.conference-details {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--border-color);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.conference-details ul {
+  margin-left: var(--spacing-md);
+  margin-top: var(--spacing-sm);
+}
+
+.conference-details li {
+  margin-bottom: var(--spacing-xs);
+  color: var(--text-secondary);
+}
+
+/* Responsive adjustments for education timeline */
+@media (max-width: 768px) {
+  .education-item {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-sm);
+  }
+
+  .education-year {
+    padding-top: 0;
+  }
+}
+
 /* ===================================
    Research Section
    =================================== */
