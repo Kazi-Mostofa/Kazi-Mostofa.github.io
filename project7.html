@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Project 7 - Sustainable Cold Storage Facility for Fisheries</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body, p, li, figcaption, h2, ul {
+      color: black;
+    }
+    .card-3d {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      padding: 1.5rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      margin-bottom: 2rem;
+    }
+    .card-3d:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+    }
+    h2 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    h2 i {
+      color: black !important;
+    }
+    figcaption {
+      font-size: 0.9em;
+    }
+    ul li {
+      margin-bottom: 8px;
+    }
+  </style>
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+<header id="header">
+  <a href="index.html" class="title">Project 7</a>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="generic.html">Education</a></li>
+      <li><a href="work.html">Work Experience</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div id="wrapper">
+  <section id="main" class="wrapper">
+    <div class="inner">
+      <h1 class="major" style="color: #1abc9c;">❄️ Sustainable Cold Storage Facility Powered by Hybrid Energy Sources</h1>
+
+      <div class="card-3d">
+        <h2><i class="fas fa-seedling"></i> Introduction</h2>
+        <p>In Bangladesh, rural post-harvest losses are rampant due to the absence of cold storage. This project presents a hybrid-powered cold storage design that tackles this issue by combining solar, wind, and grid electricity to reduce operational cost and environmental impact.</p>
+      </div>
+
+      <div class="card-3d">
+        <h2><i class="fas fa-chart-area"></i> Methodology & Load Profile</h2>
+        <p>Based on 800-tonne fish and 40-tonne crop requirements, the total load demand was ~459,637 kWh/year. The solution was optimized using HOMER Pro.</p>
+        <ul>
+          <li>500 kW Solar PV</li>
+          <li>1.5 kW Wind Turbine</li>
+          <li>Grid Sell/Buy: $0.05/$0.10</li>
+          <li>372 kW Converter</li>
+        </ul>
+        <figure style="text-align: center;">
+          <img src="images/project7_hybrid_schematic.png" alt="Hybrid System Schematic" style="max-width: 70%; height: auto;" />
+          <figcaption><em>Figure 1:</em> Hybrid layout integrating renewable and grid sources.</figcaption>
+        </figure>
+      </div>
+
+      <div class="card-3d">
+        <h2><i class="fas fa-cogs"></i> HOMER Pro Optimal Configuration</h2>
+        <p>After simulating 20+ scenarios, HOMER identified a PV + wind + grid model as the most cost-effective, with only 1.78% excess electricity.</p>
+        <figure style="text-align: center;">
+          <img src="images/project7_homer_model.png" alt="HOMER Pro Hybrid Configuration" style="max-width: 70%; height: auto;" />
+          <figcaption><em>Figure 2:</em> HOMER schematic for optimal layout.</figcaption>
+        </figure>
+      </div>
+
+      <div class="card-3d">
+        <h2><i class="fas fa-bolt"></i> Power Output & Comparative Performance</h2>
+        <ul>
+          <li>All-PV: High surplus, poor ROI</li>
+          <li>PV+Wind (Off-Grid): Better, still wasteful</li>
+          <li>PV+Wind+Gen: Expensive O&M</li>
+          <li>Wind+Gen: Inefficient, spatially demanding</li>
+          <li>PV+Grid: Efficient, space-heavy</li>
+          <li>PV+Wind+Grid: Best compromise</li>
+        </ul>
+        <figure style="text-align: center;">
+          <img src="images/project7_energy_distribution.png" alt="Energy Distribution" style="max-width: 90%; height: auto;" />
+          <figcaption><em>Figure 3:</em> Energy supply and demand balance comparison.</figcaption>
+        </figure>
+      </div>
+
+      <div class="card-3d">
+        <h2><i class="fas fa-chart-pie"></i> Best Hybrid Model: Output & Economics</h2>
+        <ul>
+          <li>250 kW PV, 12 wind turbines, 185 kW converter</li>
+          <li>768,877 kWh/year generated</li>
+          <li>Grid covers 34.3%</li>
+          <li>1.4% excess electricity</li>
+          <li>CO₂ reduced to 13,489 kg/year</li>
+          <li>ROI in 5 years | Cost: ~$341,069</li>
+        </ul>
+        <figure style="text-align: center;">
+          <img src="images/project7_cost_breakdown.png" alt="Cost Breakdown" style="max-width: 70%; height: auto;" />
+          <figcaption><em>Figure 4:</em> Distribution of capital, replacement, and O&M costs.</figcaption>
+        </figure>
+      </div>
+
+      <div class="card-3d">
+        <h2><i class="fas fa-microchip"></i> Optimization & Smart Features</h2>
+        <ul>
+          <li>IoT for real-time control and predictive maintenance</li>
+          <li>Load forecasting via smart meters</li>
+          <li>Thin-film insulation to reduce compressor runtime</li>
+          <li>Remote adjustment for demand variation</li>
+        </ul>
+      </div>
+
+      <div class="card-3d">
+        <h2><i class="fas fa-flag-checkered"></i> Conclusion</h2>
+        <p>This model provides a scalable solution to rural food storage challenges with clean energy, ROI within 5 years, and up to 75% energy independence.</p>
+      </div>
+
+    </div>
+  </section>
+</div>
+
+<footer id="footer" class="wrapper alt">
+  <div class="inner">
+    <ul class="menu">
+      <li>&copy; 2025 Kazi Zehad Mostofa. All rights reserved.</li>
+      <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

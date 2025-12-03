@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Project 3 - ML-Enhanced PV Energy System</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <style>
+    .highlight-section {
+      background: #f0f8ff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin: 2rem 0;
+    }
+    .center-img {
+      display: block;
+      margin: 2rem auto;
+      max-width: 75%;
+    }
+    .section-icon {
+      color: #007acc;
+      margin-right: 0.5rem;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    h2 i, h3 i {
+      color: #007acc;
+      margin-right: 0.5rem;
+    }
+  </style>
+</head>
+<body class="is-preload">
+
+  <!-- Header -->
+  <header id="header">
+    <a href="index.html" class="title">Project 3</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="generic.html">Education</a></li>
+        <li><a href="work.html">Work Experience</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Wrapper -->
+  <div id="wrapper">
+    <section id="main" class="wrapper">
+      <div class="inner">
+        <h1 class="major text-center"><i class="fas fa-solar-panel"></i> Machine Learning-Enhanced All-PV Blended Energy Systems</h1>
+
+        <div class="highlight-section">
+          <h3 style="color: black;">Overview</h3>
+          <p style="color: black;">
+            This project investigates a full-surface photovoltaic building design that incorporates rooftop, vertical façade, and semitransparent BIPV modules, enhanced with machine learning for optimal energy yield prediction, intelligent sizing, and real-time monitoring. The system is tailored for energy-positive and low-carbon buildings in urban contexts.
+          <p>
+        </div>
+
+        <h2><i class="fas fa-bolt"></i> Problem Statement</h2>
+        <p>Building-integrated photovoltaics (BIPV) have immense potential but are underutilized due to complexity in modeling and integration. Existing PV systems often ignore vertical or transparent surfaces, limiting total solar capture. Our research proposes a blended PV model with intelligent control to utilize the full envelope of the building.</p>
+
+        <h2><i class="fas fa-layer-group"></i> Proposed System Architecture</h2>
+        <p>The architecture includes three types of PV integration: conventional rooftop panels, vertical wall-mounted PV, and semitransparent window-integrated PV. The energy generation is managed through a hybrid DC/AC inverter setup supporting bi-directional metering.</p>
+        <img src="images/pv_schematic.png" alt="PV System Schematic" class="center-img" />
+
+        <h2><i class="fas fa-brain"></i> Machine Learning Framework</h2>
+        <p>The prediction model uses supervised regression (SVR, RF) trained on irradiance, orientation, and time-of-day data to forecast hourly generation. HOMER Pro simulations complement the ML models for optimal component sizing and layout planning.</p>
+        <img src="images/ml_architecture.jpg" alt="Machine Learning Architecture" class="center-img" />
+
+        <h3><i class="fas fa-wifi"></i> IoT-Based Real-Time Monitoring</h3>
+        <p>The PV system is integrated with an IoT framework using ThingSpeak for data visualization. Voltage, current, temperature, and irradiance are recorded in real-time to aid predictive maintenance and performance validation.</p>
+        <img src="images/thingspeak_dashboard.png" alt="ThingSpeak Dashboard" class="center-img" />
+
+        <h2><i class="fas fa-project-diagram"></i> Electrical Layout & Grid Connection</h2>
+        <p>The proposed electrical layout uses smart inverters, load balancers, and hybrid grid-interactive design. Both DC and AC buses are managed through energy management controllers.</p>
+        <img src="images/simulation_layout.png" alt="Hybrid PV Layout" class="center-img" />
+
+        <h2><i class="fas fa-city"></i> Performance Comparison Across Cities</h2>
+        <p>The simulation was performed for multiple cities across varied climate zones. Results indicate that the blended PV model outperforms single-surface PV systems by up to 28% in annual yield while enhancing daylight penetration indoors via semitransparent layers.</p>
+        <img src="images/city_comparison.png" alt="City Comparison" class="center-img" />
+        <p><strong>Analysis:</strong> The energy yield advantage of blended PV was most significant in cities with high vertical irradiance such as Los Angeles and Kuala Lumpur. Locations with less horizontal roof area benefited more from vertical PV integration. Seasonal performance showed stability even during winter, confirming system adaptability. ML-based predictions aligned closely with simulation outputs, yielding a mean absolute error below 7% across the dataset.</p>
+
+        <h2><i class="fas fa-trophy"></i> Key Highlights</h2>
+        <ul>
+          <li>Achieved 78% energy self-sufficiency in optimized deployments</li>
+          <li>30% reduced carbon footprint across modeled regions</li>
+          <li>Enhanced facade usability with transparent PV glass</li>
+          <li>Live predictive analytics through cloud-connected dashboard</li>
+        </ul>
+
+        <h2><i class="fas fa-lightbulb"></i> Conclusion</h2>
+        <p>This research introduces a scalable all-PV envelope for buildings that leverages AI, simulation, and IoT technologies. The proposed system is adaptable to various urban contexts and supports zero-energy building targets.</p>
+
+        <h2><i class="fas fa-book"></i> Publication</h2>
+        <p><strong>Title:</strong> Machine learning-enhanced all-photovoltaic blended systems for energy-efficient sustainable buildings<br />
+        <strong>Journal:</strong> Cleaner Energy Systems, Elsevier<br />
+        <strong>DOI:</strong> <a href="https://doi.org/10.1016/j.cles.2024.100180" target="_blank">10.1016/j.cles.2024.100180</a><br />
+        <strong>Authors:</strong> Mostofa, K. Z., Islam, M. A., & others (2024)</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer" class="wrapper alt">
+    <div class="inner">
+      <ul class="menu">
+        <li>&copy; 2025 Kazi Zehad Mostofa. All rights reserved.</li>
+        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>

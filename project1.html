@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>IoT-Based Remotely Solar PV Monitoring and Fault Detection | Kazi Zehad Mostofa</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+  <!-- Header -->
+  <header id="header">
+    <a href="index.html" class="title">Project 1</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="generic.html">Education</a></li>
+        <li><a href="work.html">Experience</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    <!-- Main -->
+    <section id="main" class="wrapper">
+      <div class="inner">
+        <h1 class="major text-center"><i class="fas fa-solar-panel"></i> IoT-Based Remote Monitoring of Solar PV Systems</h1>
+      
+        <img src="images/project1-overview.png" alt="Project Overview" style="display: block; margin: 0 auto; max-width: 70%;" />
+
+
+        <h2><i class="fas fa-globe"></i> Project Overview</h2>
+        <p>This project addresses the lack of real-time visibility in off-grid solar installations. We developed an IoT-enabled system to monitor critical PV parameters—voltage, current, power, irradiance, and temperature—remotely and continuously via cloud.</p>
+
+        <h2><i class="fas fa-microchip"></i> Features and System Highlights</h2>
+        <ul>
+          <li>Low-cost hardware using NodeMCU (ESP8266) microcontroller</li>
+          <li>Sensors: LM35 (panel temp), DHT11 (ambient), BH1750 (irradiance), INA219 (power)</li>
+          <li>Real-time data uploaded to <strong>ThingSpeak IoT dashboard</strong></li>
+          <li>On-site LCD display for local monitoring</li>
+        </ul>
+
+        <h2><i class="fas fa-project-diagram"></i> System Architecture</h2>
+        <img src="images/project1-architecture.png" alt="System Architecture" style="display: block; margin: 0 auto; max-width: 70%;" />
+        <p>The system is designed with a three-tier layout: a solar charge controller at the base, MCU and sensors in the middle, and a display unit at the top. Data is transmitted every 15 seconds to the cloud.</p>
+
+        <h2><i class="fas fa-chart-line"></i> Live Monitoring and Visualization</h2>
+        <img src="images/project1-dashboard.png" alt="ThingSpeak Dashboard" style="display: block; margin: 0 auto; max-width: 70%;" />
+        
+        <p>Using ThingSpeak, we display real-time plots of panel voltage, power, irradiance, and temperature. Users can identify performance trends and faults instantly from any browser or mobile device.</p>
+
+        <h2><i class="fas fa-chart-bar"></i> Results and Findings</h2>
+        <ul>
+          <li>Max Panel Voltage: 22V</li>
+          <li>Peak Power Output: 4.8W</li>
+          <li>Daylight performance tracked consistently with irradiance curve</li>
+          <li>Efficiency improved through early fault detection</li>
+        </ul>
+        
+        <img src="images/project1-results.png" alt="Performance Graphs" style="display: block; margin-left: auto; margin-right: auto; max-width: 75%;" />
+        <h2><i class="fas fa-lock"></i> Cloud Security & Mobile Access</h2>
+        <p>ThingSpeak access is secured with encrypted API keys. The system supports mobile dashboard viewing for users in the field and sends alert triggers for critical thresholds.</p>
+        <img src="images/project1-mobileappp.png" alt="Mobile View" style="display: block; margin: 0 auto; max-width: 75%;" />
+
+        <h2><i class="fas fa-bolt"></i> Applications & Impact</h2>
+        <p>Ideal for rural electrification programs, off-grid academic test beds, and microgrid monitoring. The system improves solar system longevity, maintenance planning, and energy accountability.</p>
+
+        <h2><i class="fas fa-lightbulb"></i> Future Enhancements</h2>
+        <ul>
+          <li>Integrate load isolation via smart relay control</li>
+          <li>Expand to multi-panel PV farms</li>
+          <li>Add solar tracking and ML-based fault prediction</li>
+        </ul>
+
+        <h2><i class="fas fa-book-open"></i> Publication</h2>
+        <p>
+          Published in <strong>Energy Reports (Elsevier)</strong>, 2023<br />
+          <a href="https://doi.org/10.1016/j.egyr.2023.09.060" target="_blank">DOI: 10.1016/j.egyr.2023.09.060</a>
+        </p>
+
+        <ul class="actions">
+          <li><a href="index.html" class="button">&larr; Back to Home</a></li>
+        </ul>
+
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer" class="wrapper alt">
+    <div class="inner">
+      <ul class="menu">
+        <li>&copy; 2025 Kazi Zehad Mostofa. All rights reserved.</li>
+        <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>

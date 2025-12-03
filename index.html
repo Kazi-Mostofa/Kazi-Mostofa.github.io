@@ -1,824 +1,579 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Kazi Zehad Mostofa - PhD Candidate specializing in renewable energy systems, microgrid optimization, and load forecasting at Clarkson University">
-  <meta name="keywords" content="renewable energy, microgrid optimization, load forecasting, machine learning, energy systems, PhD researcher, electrical engineering">
-  <meta name="author" content="Kazi Zehad Mostofa">
-  <title>Kazi Zehad Mostofa | Energy Systems Researcher & PhD Candidate</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <title>Hi, I am Kazi Zehad Mostofa</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
-<body>
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="container">
-      <div class="nav-brand">KZM</div>
-      <ul class="nav-menu">
-        <li><a href="#home" class="nav-link">Home</a></li>
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#education" class="nav-link">Education</a></li>
-        <li><a href="#research" class="nav-link">Research</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#publications" class="nav-link">Publications</a></li>
-        <li><a href="#conferences" class="nav-link">Conferences</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-      </ul>
-      <button class="mobile-menu-toggle" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
-  </nav>
+<body class="is-preload">
 
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="hero-background"></div>
-    <div class="container">
-      <div class="hero-content">
-        <p class="hero-greeting">Hello, I'm</p>
-        <h1 class="hero-title">Kazi Zehad Mostofa</h1>
-        <p class="hero-subtitle">PhD Candidate in Electrical & Computer Engineering</p>
-        <p class="hero-affiliation">Clarkson University | DOE-GE Vernova Research Collaborator</p>
-        <div class="hero-tags">
-          <span class="tag">Renewable Energy Systems</span>
-          <span class="tag">Microgrid Optimization</span>
-          <span class="tag">Machine Learning</span>
-          <span class="tag">Load Forecasting</span>
-          <span class="tag">Sustainable Buildings</span>
+  <!-- Fonts for Sidebar Aesthetics -->
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+</style>
+
+<!-- Sidebar (Glassmorphic + 3D Mood, Smaller Font) -->
+<section id="sidebar" class="fixed top-0 left-0 h-full w-full md:w-72 bg-white/10 backdrop-blur-2xl text-white z-50 shadow-[0_10px_30px_rgba(0,0,0,0.4)] border-r border-white/10">
+  <div class="flex flex-col justify-center items-center h-full space-y-10 px-6">
+
+    <!-- Navigation Menu -->
+    <ul class="space-y-6 text-base font-medium tracking-wide w-full text-center">
+
+      <!-- WELCOME -->
+      <li>
+        <a href="#intro" class="relative group inline-block w-full transition transform hover:scale-105 hover:translate-x-1 duration-300 ease-in-out">
+          <span class="text-white text-lg group-hover:text-purple-300 transition duration-300 drop-shadow-md">
+            WELCOME
+          </span>
+          <span class="block h-1 mt-1 bg-gradient-to-r from-purple-400 via-pink-400 to-red-400 rounded-full shadow-md group-hover:shadow-purple-500/50 transition-all duration-500 group-hover:scale-x-110 origin-left"></span>
+        </a>
+      </li>
+
+      <!-- WHO AM I -->
+      <li>
+        <a href="#one" class="relative group inline-block w-full transition transform hover:scale-105 hover:translate-x-1 duration-300 ease-in-out">
+          <span class="text-gray-400 text-lg group-hover:text-purple-300 transition duration-300 drop-shadow-sm">
+            MY STORY
+          </span>
+          <span class="block h-0.5 mt-1 bg-purple-800/40 rounded-full group-hover:bg-purple-300 group-hover:shadow-md transition-all duration-500"></span>
+        </a>
+      </li>
+
+      <!-- PROJECT SHOWCASE -->
+      <li>
+        <a href="#two" class="relative group inline-block w-full transition transform hover:scale-105 hover:translate-x-1 duration-300 ease-in-out">
+          <span class="text-gray-400 text-lg group-hover:text-purple-300 transition duration-300 drop-shadow-sm">
+            NOTABLE WORKS
+          </span>
+          <span class="block h-0.5 mt-1 bg-purple-800/40 rounded-full group-hover:bg-purple-300 group-hover:shadow-md transition-all duration-500"></span>
+        </a>
+      </li>
+      
+<!-- PROJECT SHOWCASE -->
+      <li>
+        <a href="#research" class="relative group inline-block w-full transition transform hover:scale-105 hover:translate-x-1 duration-300 ease-in-out">
+          <span class="text-gray-400 text-lg group-hover:text-purple-300 transition duration-300 drop-shadow-sm">
+            PUBLICATIONS
+          </span>
+          <span class="block h-0.5 mt-1 bg-purple-800/40 rounded-full group-hover:bg-purple-300 group-hover:shadow-md transition-all duration-500"></span>
+        </a>
+      </li>
+
+      <!-- PROJECT SHOWCASE -->
+      <li>
+        <a href="#leadership" class="relative group inline-block w-full transition transform hover:scale-105 hover:translate-x-1 duration-300 ease-in-out">
+          <span class="text-gray-400 text-lg group-hover:text-purple-300 transition duration-300 drop-shadow-sm">
+            LEADERSHIP
+          </span>
+          <span class="block h-0.5 mt-1 bg-purple-800/40 rounded-full group-hover:bg-purple-300 group-hover:shadow-md transition-all duration-500"></span>
+        </a>
+      </li>
+      
+      <!-- GET IN TOUCH -->
+      <li>
+        <a href="#three" class="relative group inline-block w-full transition transform hover:scale-105 hover:translate-x-1 duration-300 ease-in-out">
+          <span class="text-gray-400 text-lg group-hover:text-purple-300 transition duration-300 drop-shadow-sm">
+            GET IN TOUCH
+          </span>
+          <span class="block h-0.5 mt-1 bg-purple-800/40 rounded-full group-hover:bg-purple-300 group-hover:shadow-md transition-all duration-500"></span>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+</section>
+
+
+  <!-- Wrapper -->
+<div id="wrapper">
+  <!-- Introduction -->
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kazi Zehad Mostofa – Bio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome CDN for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="m-0 p-0 box-border">
+
+    <!-- Intro Section -->
+    <section id="intro" class="relative w-full h-screen text-white" style="background: url('images/renewable_bg.png') no-repeat center center / cover;">
+      <!-- Optional Overlay -->
+      <div class="absolute inset-0 bg-gradient-to-b from-blue-900/60 to-indigo-800/50 z-0"></div>
+
+      <!-- Main Content -->
+      <div class="relative z-10 flex flex-col items-center justify-center text-center px-8 py-16 h-full max-w-5xl mx-auto">
+
+        <!-- Left Column: Text -->
+        <div>
+          <h1 class="text-7xl font-extrabold leading-tight mb-4 whitespace-nowrap text-center">
+            Hi! I’m <span class="text-white-400">Kazi Zehad Mostofa</span>
+          </h1>
+
+          <!-- Border line -->
+          <div class="inline-block text-center">
+            <!-- Top Green Line -->
+            <div class="h-1 bg-green-500 mb-2 w-full"></div>
+
+            <!-- Text -->
+            <p class="text-2xl font-light whitespace-nowrap inline-block">
+  Graduate Research Assistant | Load Forecasting | Microgrid Optimisation | Energy Sustainability
+</p>
+
+            </p>
+
+            <!-- Bottom Green Line -->
+            <div class="h-1 bg-green-500 mt-2 w-full"></div>
+          </div>
+
+          <div class="w-full px-6">
+            <p class="text-lg text-white text-justify leading-relaxed mt-6">
+  I’m a Ph.D. researcher at Clarkson University focused on building energy systems that work beyond the lab. My work spans deterministic and probabilistic load forecasting, renewable integration, and microgrid control, backed by hands-on data engineering in Python. I’ve led projects on smart buildings, hybrid energy systems, and scenario-based microgrid optimisation—linking forecasting, Gaussian-copula scenario generation, and Pyomo-based dispatch to real operating constraints. I’m currently collaborating with the U.S. Department of Energy and GE Vernova on a microgrid for Tok, Alaska to improve reliability, cut costs, and reduce emissions for a remote community.
+</p>
+             </p>
+            
+          </div> 
+          <p class="text-xl font-light mb-8 whitespace-nowrap"> To explore my recent work, I would like to welcome you to visit my profiles in <a href="https://scholar.google.com/citations?user=7v_fFJYAAAAJ&hl=en" class="text-blue-300 hover:underline">Google Scholar</a> & <a href="https://www.linkedin.com/in/kmzehad/" class="text-blue-300 hover:underline">LinkedIn</a>.
+          </p> 
+
+
+          <div class="my-12 px-6 text-left">
+            <a href="#one" class="inline-block px-6 py-3 bg-white text-indigo-700 font-semibold rounded-lg shadow hover:bg-indigo-100 transition duration-300">
+              Learn More
+            </a>
+          </p>
         </div>
-        <div class="hero-links">
-          <a href="mailto:mostofk@clarkson.edu" class="social-link">
-            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-            Email
-          </a>
-          <a href="https://www.linkedin.com/in/kmzehad" target="_blank" rel="noopener" class="social-link">
-            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-            LinkedIn
-          </a>
-          <a href="https://github.com/KaziMostofa" target="_blank" rel="noopener" class="social-link">
-            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-            GitHub
-          </a>
-          <a href="https://scholar.google.com/citations?user=7v_fFJYAAAAJ&hl=en" target="_blank" rel="noopener" class="social-link">
-            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg>
-            Scholar
-          </a>
+
+        <!-- Social Links -->
+        <div class="absolute bottom-0 left-0 p-4 text-xl flex space-x-4 z-10">
+          <a href="https://www.facebook.com/ZeeeHad/" class="hover:text-blue-400"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/zeee.had?igsh=MTN2eGo4bXg1Nnl6YQ%3D%3D&utm_source=qr" class="hover:text-pink-400"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/kmzehad/" class="hover:text-blue-300"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://scholar.google.com/citations?user=7v_fFJYAAAAJ&hl=en" class="hover:text-green-300"><i class="fas fa-graduation-cap"></i></a>
+          <a href="https://orcid.org/my-orcid?orcid=0000-0001-6263-1922" class="hover:text-yellow-300"><i class="fas fa-id-badge"></i></a>
+          <a href="https://www.researchgate.net/profile/Kazi_Mostofa?ev=hdr_xprf" class="hover:text-teal-300"><i class="fas fa-book"></i></a>
         </div>
-        <a href="#contact" class="cta-button">Get In Touch</a>
+      </div>
+
+      <!-- Right Column: Professional Headshot -->
+      <div class="hidden md:block">
+        <img src="images/kazi_cutout.png" alt="Kazi Zehad Mostofa" class="fixed bottom-4 right-4 w-44 h-44 object-cover rounded-full border-[6px] border-white shadow-2xl transition-transform duration-300 hover:scale-105" />
       </div>
     </div>
   </section>
 
-  <!-- About Section -->
-  <section id="about" class="section">
-    <div class="container">
-      <h2 class="section-title">About Me</h2>
-      <div class="about-content">
-        <p class="lead">
-          Graduate Research Assistant and PhD Candidate at Clarkson University, specializing in sustainable energy systems, intelligent grid optimization, and advanced forecasting techniques.
+
+
+    <!-- ===== WHO AM I SECTION ===== -->
+<section id="one" class="wrapper style2 spotlights text-white bg-gradient-to-b from-indigo-950 via-slate-900 to-gray-950">
+  
+  <!-- Education -->
+  <section>
+    <a href="#" class="image"><img src="images/pic01.png" alt="Education" data-position="center center" /></a>
+    <div class="content">
+      <div class="inner">
+        <h2 class="text-4xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500 drop-shadow-md">Educational Background</h2>
+        <p class="text-lg text-gray-300 leading-relaxed">
+          PhD Student in ECE at Clarkson University, Potsdam, New York. <br />
+          BS in Electrical Engineering at University of Malaya, Kuala Lumpur, Malaysia.
         </p>
-        <p>
-          I am pursuing a PhD in Electrical & Computer Engineering with a focus on developing cutting-edge solutions for renewable energy integration, microgrid economic dispatch, and probabilistic load forecasting. My research combines machine learning techniques with energy systems analysis to create intelligent, efficient, and sustainable energy infrastructure.
+        <ul class="actions">
+          <li class="mt-6">
+            <a href="generic.html" class="button special">Learn more →</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Experience -->
+  <section>
+    <a href="#" class="image"><img src="images/pic02.png" alt="Work Experience" data-position="top center" /></a>
+    <div class="content">
+      <div class="inner">
+        <h2 class="text-4xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-sky-500 drop-shadow-md">Work Experience</h2>
+        <p class="text-lg text-gray-300 leading-relaxed">
+          My journey spans microgrid optimization, hybrid building energy modeling, wind farm planning, and IoT-based solar monitoring—delivering data-driven, sustainable energy solutions.
         </p>
-        <p>
-          Currently collaborating with the U.S. Department of Energy (DOE) and GE Vernova on microgrid optimization and economic dispatch for Tok, Alaska. With a strong foundation in circuit analysis, power systems, and renewable energy technologies from my undergraduate studies at University of Malaya, I bring comprehensive expertise in energy data science, optimization algorithms, and IoT-based monitoring systems.
+        <ul class="actions">
+          <li class="mt-6">
+            <a href="work.html" class="button special">Learn more →</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section>
+    <a href="#" class="image"><img src="images/pic03.png" alt="Skills" data-position="top center" /></a>
+    <div class="content">
+      <div class="inner">
+        <h2 class="text-4xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-red-500 drop-shadow-md">Technical Skills</h2>
+        <p class="text-lg text-gray-300 leading-relaxed">
+          Hands-on experience in energy modeling, embedded systems, cloud platforms, and data analytics for smart, sustainable energy systems. Skilled in using simulation tools, programming languages, and research software to design and optimize renewable energy infrastructure.
         </p>
-        <p>
-          As a registered Graduate Engineer with the Board of Engineers Malaysia and published researcher in leading journals, I contribute to advancing clean energy technologies and smart grid modernization through innovative research with real-world applications.
+        <ul class="actions">
+          <li class="mt-6">
+            <a href="skills.html" class="button special">Learn More →</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Projects -->
+  <section>
+    <a href="#" class="image"><img src="images/global_projects.png" alt="Global Project Showcase" data-position="top center" /></a>
+    <div class="content">
+      <div class="inner">
+        <h2 class="text-4xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-lime-300 to-emerald-500 drop-shadow-md">Global Project Showcase</h2>
+        <p class="text-lg text-gray-300 leading-relaxed">
+          Showcasing international collaborative projects and conference presentations focused on energy sustainability, smart grid innovations, and green building technologies. These initiatives highlight real-world problem solving, cross-cultural teamwork, and advanced technical insights shared with global audiences.
         </p>
-      </div>
-
-      <div class="education-highlight">
-        <div class="education-card">
-          <div class="education-icon">🎓</div>
-          <h3>PhD in Electrical & Computer Engineering</h3>
-          <p class="institution">Clarkson University, Potsdam, NY</p>
-          <p class="timeline">2025 - Expected 2028</p>
-          <p class="focus">Renewable Energy Systems | Microgrid Optimization | Load Forecasting</p>
-        </div>
+        <ul class="actions">
+          <li class="mt-6">
+            <a href="conference.html" class="button special">Explore In Details →</a>
+          </li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <!-- Education Section -->
-  <section id="education" class="section section-gray">
-    <div class="container">
-      <h2 class="section-title">Education</h2>
-      <div class="education-timeline">
+</section>
 
-        <div class="education-item">
-          <div class="education-year">2025 - 2028</div>
-          <div class="education-content">
-            <div class="education-icon">🎓</div>
-            <h3>Doctor of Philosophy (PhD)</h3>
-            <h4>Electrical & Computer Engineering</h4>
-            <p class="institution">Clarkson University, Potsdam, NY</p>
-            <p class="timeline">May 2025 - May 2028 (Expected)</p>
-            <div class="education-details">
-              <p><strong>Research Focus:</strong> Microgrid Optimization & Economic Dispatch</p>
-              <p><strong>Collaboration:</strong> U.S. Department of Energy (DOE) & GE Vernova</p>
-              <p><strong>Project:</strong> Microgrid Optimization and Economic Dispatch for Tok, Alaska - developing comprehensive optimization strategies for integrated renewable energy systems including solar PV, battery energy storage systems (BESS), and combined heat and power (CHP) for remote community resilience</p>
+
+    <!-- PROJECTS SECTION -->
+<section id="two" class="relative z-10 overflow-hidden text-white py-24 px-6 sm:px-10 md:px-20 lg:px-32">
+
+  <!-- Animated Background Effect -->
+  <div class="absolute inset-0 bg-gradient-to-br from-purple-900 via-slate-900 to-black opacity-70 animate-pulse z-0 blur-xl"></div>
+
+  <div class="relative z-10 max-w-7xl mx-auto">
+
+    <!-- Section Title -->
+    <h2 class="text-center text-4xl sm:text-5xl font-extrabold tracking-wider text-purple-300 mb-16 drop-shadow-lg font-display">
+      Successfully Completed Projects
+    </h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+
+      <!-- Project 1 -->
+      <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:scale-105 transition duration-500 shadow-lg hover:shadow-purple-500/30">
+        <div class="text-purple-300 text-4xl mb-3"><i class="fas fa-solar-panel"></i></div>
+        <h3 class="text-xl font-semibold mb-2">IoT-Based Solar PV Monitoring</h3>
+        <p class="text-sm text-gray-300 mb-4">Cloud-connected monitoring with real-time performance dashboard.</p>
+        <a href="project1.html" class="text-purple-200 hover:text-white text-sm">Learn More →</a>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:scale-105 transition duration-500 shadow-lg hover:shadow-yellow-400/30">
+        <div class="text-yellow-300 text-4xl mb-3"><i class="fas fa-bolt"></i></div>
+        <h3 class="text-xl font-semibold mb-2">EV Charging Infrastructure Analysis</h3>
+        <p class="text-sm text-gray-300 mb-4">Data-driven evaluation of 305 EV stations to optimize performance.</p>
+        <a href="project2.html" class="text-yellow-200 hover:text-white text-sm">Learn More →</a>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:scale-105 transition duration-500 shadow-lg hover:shadow-green-400/30">
+        <div class="text-green-300 text-4xl mb-3"><i class="fas fa-city"></i></div>
+        <h3 class="text-xl font-semibold mb-2">Net-Zero PV Blended Buildings</h3>
+        <p class="text-sm text-gray-300 mb-4">Rooftop and window PV integrated with ML and IoT for smart energy use.</p>
+        <a href="project3.html" class="text-green-200 hover:text-white text-sm">Learn More →</a>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:scale-105 transition duration-500 shadow-lg hover:shadow-blue-400/30">
+        <div class="text-blue-300 text-4xl mb-3"><i class="fas fa-school"></i></div>
+        <h3 class="text-xl font-semibold mb-2">Hybrid Retrofit for Sustainable Schools</h3>
+        <p class="text-sm text-gray-300 mb-4">Low-E glass + rooftop PV design for Bangladeshi school energy savings.</p>
+        <a href="project4.html" class="text-blue-200 hover:text-white text-sm">Learn More →</a>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:scale-105 transition duration-500 shadow-lg hover:shadow-teal-400/30">
+        <div class="text-teal-300 text-4xl mb-3"><i class="fas fa-wind"></i></div>
+        <h3 class="text-xl font-semibold mb-2">71.4 MW Wind Farm Design – Vietnam</h3>
+        <p class="text-sm text-gray-300 mb-4">17-turbine conceptual design optimized for LCOE and wake loss mitigation.</p>
+        <a href="project5.html" class="text-teal-200 hover:text-white text-sm">Learn More →</a>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:scale-105 transition duration-500 shadow-lg hover:shadow-pink-400/30">
+        <div class="text-pink-300 text-4xl mb-3"><i class="fas fa-battery-full"></i></div>
+        <h3 class="text-xl font-semibold mb-2">Grid-Tied PV Microgrid with Storage</h3>
+        <p class="text-sm text-gray-300 mb-4">PSCAD-modeled microgrid with smart battery for 24/7 power supply.</p>
+        <a href="project6.html" class="text-pink-200 hover:text-white text-sm">Learn More →</a>
+      </div>
+
+      <!-- Project 7 -->
+      <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:scale-105 transition duration-500 shadow-lg hover:shadow-red-400/30">
+        <div class="text-red-300 text-4xl mb-3"><i class="fas fa-snowflake"></i></div>
+        <h3 class="text-xl font-semibold mb-2">Hybrid-Powered Cold Storage</h3>
+        <p class="text-sm text-gray-300 mb-4">800-ton fish cold storage powered by solar, wind, and grid with smart controls.</p>
+        <a href="project7.html" class="text-red-200 hover:text-white text-sm">Learn More →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+      
+      <!-- Research Publications Showcase -->
+<section id="research" class="py-24 bg-gradient-to-b from-indigo-900 via-slate-900 to-gray-950 text-white">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-5xl font-bold mb-12 text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500 drop-shadow-lg">
+      Research Publications
+    </h2>
+
+    <p class="text-lg text-gray-300 mb-12 text-center max-w-3xl mx-auto leading-relaxed">
+      A curated selection of my journal articles and book chapters in smart energy systems, hybrid storage, IoT monitoring, and sustainable infrastructure.
+    </p>
+
+    <!-- Grid Layout -->
+    <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+      
+      <!-- Publication Card -->
+      <div class="bg-white/10 backdrop-blur-lg rounded-2xl shadow-xl p-6 transition duration-300 hover:scale-105 hover:shadow-purple-500/40 border border-white/10">
+        <h3 class="text-xl font-semibold mb-2">All-photovoltaic blended systems for energy-efficient sustainable buildings</h3>
+        <p class="text-sm text-gray-300 mb-4"><em>Sustainable Energy Technologies and Assessments</em>, 2024</p>
+        <a href="https://www.sciencedirect.com/science/article/pii/S2213138824000328" target="_blank" class="text-purple-300 underline text-sm">View Publication →</a>
+      </div>
+
+      <div class="bg-white/10 backdrop-blur-lg rounded-2xl shadow-xl p-6 transition duration-300 hover:scale-105 hover:shadow-purple-500/40 border border-white/10">
+        <h3 class="text-xl font-semibold mb-2">Retrofitted Low-E Windows for Energywise Schools</h3>
+        <p class="text-sm text-gray-300 mb-4"><em>Solar</em>, 2022</p>
+        <a href="https://www.mdpi.com/2673-9941/2/4/32" target="_blank" class="text-purple-300 underline text-sm">View Publication →</a>
+      </div>
+
+      <div class="bg-white/10 backdrop-blur-lg rounded-2xl shadow-xl p-6 transition duration-300 hover:scale-105 hover:shadow-purple-500/40 border border-white/10">
+        <h3 class="text-xl font-semibold mb-2">IoT Based Remotely Solar Plant Monitoring</h3>
+        <p class="text-sm text-gray-300 mb-4"><em>Elsevier: Energy Reports</em>, 2023</p>
+        <a href="https://www.sciencedirect.com/science/article/pii/S2352484723012969" target="_blank" class="text-purple-300 underline text-sm">View Publication →</a>
+      </div>
+
+      <div class="bg-white/10 backdrop-blur-lg rounded-2xl shadow-xl p-6 transition duration-300 hover:scale-105 hover:shadow-purple-500/40 border border-white/10">
+        <h3 class="text-xl font-semibold mb-2">Realtime Solar Power Monitoring and Fault Alert Design.</h3>
+        <p class="text-sm text-gray-300 mb-4"><em>AIJR Book Chapter</em>, 2023</p>
+        <a href="https://books.aijr.org/index.php/press/catalog/book/141/chapter/2322" target="_blank" class="text-purple-300 underline text-sm">Read Chapter →</a>
+      </div>
+
+      <div class="bg-white/10 backdrop-blur-lg rounded-2xl shadow-xl p-6 transition duration-300 hover:scale-105 hover:shadow-purple-500/40 border border-white/10">
+        <h3 class="text-xl font-semibold mb-2">Battery–UC Hybrid Storage via MI Converter</h3>
+        <p class="text-sm text-gray-300 mb-4"><em>Journal of Graphic Era University</em>, 2025</p>
+        <a href="https://www.riverpublishersjournal.com/index.php/JGEU/article/view/384" target="_blank" class="text-purple-300 underline text-sm">View Publication →</a>
+      </div>
+
+      <div class="bg-white/10 backdrop-blur-lg rounded-2xl shadow-xl p-6 transition duration-300 hover:scale-105 hover:shadow-purple-500/40 border border-white/10">
+        <h3 class="text-xl font-semibold mb-2">Future of microgrids in New York City: Case Study</h3>
+        <p class="text-sm text-gray-300 mb-4"><em>Engineering Research Express</em>, IOP, 2024</p>
+        <a href="https://iopscience.iop.org/article/10.1088/2631-8695/adf031/meta" target="_blank" class="text-purple-300 underline text-sm">View Publication →</a>
+      </div>
+
+      <div class="bg-white/10 backdrop-blur-lg rounded-2xl shadow-xl p-6 transition duration-300 hover:scale-105 hover:shadow-purple-500/40 border border-white/10">
+        <h3 class="text-xl font-semibold mb-2">Nanofluid Lubricants for Engine Efficiency</h3>
+        <p class="text-sm text-gray-300 mb-4"><em>Industrial Lubrication and Tribology</em>, 2025</p>
+        <a href="https://www.emerald.com/ilt/article-abstract/doi/10.1108/ILT-03-2025-0109/1270907" target="_blank" class="text-purple-300 underline text-sm">View Abstract →</a>
+      </div>
+
+      <div class="bg-white/10 backdrop-blur-lg rounded-2xl shadow-xl p-6 transition duration-300 hover:scale-105 hover:shadow-purple-500/40 border border-white/10">
+        <h3 class="text-xl font-semibold mb-2">Smart EV Infrastructure: Efficiency & Utilization Study</h3>
+        <p class="text-sm text-gray-300 mb-4"><em>Global Energy Interconnection</em>, 2025</p>
+        <a href="https://www.sciencedirect.com/science/article/pii/S2096511725000842" target="_blank" class="text-purple-300 underline text-sm">View Paper →</a>
+      </div>
+
+      <div class="bg-white/10 backdrop-blur-lg rounded-2xl shadow-xl p-6 transition duration-300 hover:scale-105 hover:shadow-purple-500/40 border border-white/10">
+        <h3 class="text-xl font-semibold mb-2">IoT Sensor Fusion for remotely ICU Patient Monitoring</h3>
+        <p class="text-sm text-gray-300 mb-4"><em>Taylor & Francis Book Chapter</em>, 2024</p>
+        <a href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003346678-17" target="_blank" class="text-purple-300 underline text-sm">Read Chapter →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- ===== LEADERSHIP EXPERIENCE SECTION ===== -->
+<section id="leadership" class="py-24 bg-gradient-to-b from-purple-950 via-indigo-950 to-slate-950 text-white">
+  <div class="max-w-6xl mx-auto px-6">
+    
+    <!-- Section Heading -->
+    <h2 class="text-5xl font-bold mb-12 text-center text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-pink-400 to-purple-400 drop-shadow-lg">
+      Leadership Experience
+    </h2>
+
+    <p class="text-lg text-gray-300 mb-12 text-center max-w-3xl mx-auto leading-relaxed">
+      Highlights of my leadership roles in student associations and innovation events, emphasizing cultural celebration, social impact, and strategic coordination.
+    </p>
+
+    <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+
+      <!-- President -->
+      <div class="bg-white/10 backdrop-blur-lg p-6 rounded-2xl border border-white/10 shadow-xl hover:shadow-yellow-400/40 transition duration-300 hover:scale-105">
+        <h3 class="text-xl font-semibold mb-2 text-yellow-200">🎓 President</h3>
+        <p class="text-sm text-gray-300 mb-3"><strong>Bangladeshi Student Association, Clarkson University</strong><br><em>Jul 2025 – Present</em> | 
+        <a href="https://www.facebook.com/profile.php?id=100063484267783" target="_blank" class="text-yellow-300 underline">View BSACU</a></p>
+        <ul class="list-disc list-inside text-sm text-gray-300 space-y-1">
+          <li>Organized the Career Speech Series and student leadership events.</li>
+          <li>Coordinated NIW immigration seminar for international scholars.</li>
+          <li>Directed Clarkson’s largest cultural event – BSA Night.</li>
+          <li>Promoted cross-cultural participation through curated performances.</li>
+          <li>Managed logistics, university liaison, and guest coordination.</li>
+        </ul>
+      </div>
+
+      <!-- Joint Secretary -->
+      <div class="bg-white/10 backdrop-blur-lg p-6 rounded-2xl border border-white/10 shadow-xl hover:shadow-pink-400/40 transition duration-300 hover:scale-105">
+        <h3 class="text-xl font-semibold mb-2 text-pink-200">🤝 Joint Secretary</h3>
+        <p class="text-sm text-gray-300 mb-3"><strong>Bangladesh Student Organization Malaysia (BSOM)</strong><br><em>Jan 2019 – Jan 2020</em> | 
+        <a href="https://www.facebook.com/bsom.edu/" target="_blank" class="text-pink-300 underline">View BSOM</a></p>
+        <ul class="list-disc list-inside text-sm text-gray-300 space-y-1">
+          <li>Conducted large-scale Covid relief drives for stranded students.</li>
+          <li>Oversaw strategic volunteer mobilization and motivation efforts.</li>
+        </ul>
+      </div>
+
+      <!-- Head of Logistics -->
+      <div class="bg-white/10 backdrop-blur-lg p-6 rounded-2xl border border-white/10 shadow-xl hover:shadow-purple-400/40 transition duration-300 hover:scale-105">
+        <h3 class="text-xl font-semibold mb-2 text-purple-200">📦 Head of Logistics</h3>
+        <p class="text-sm text-gray-300 mb-3"><strong>Hult Prize Foundation, University of Malaya</strong><br><em>Mar 2019 – Apr 2019</em> | 
+        <a href="https://www.facebook.com/hultprizeum2021/" target="_blank" class="text-purple-300 underline">View Hult Prize UM</a></p>
+        <ul class="list-disc list-inside text-sm text-gray-300 space-y-1">
+          <li>Led logistics for innovation-focused startup challenge events.</li>
+          <li>Managed vendor sourcing and lean resource planning.</li>
+          <li>Delivered high-impact execution under tight schedules.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- ===== CONTACT SECTION ===== -->
+<section id="three" class="py-24 bg-gradient-to-b from-indigo-950 via-slate-900 to-gray-950 text-white">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-5xl font-bold mb-10 text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500 drop-shadow-lg">
+      Get in Touch
+    </h2>
+    <p class="text-lg text-gray-300 mb-12 text-center max-w-2xl mx-auto leading-relaxed">
+      I'd love to collaborate or discuss research ideas related to energy optimization, smart grids, or sustainable systems. 
+      Reach out via email or connect on LinkedIn!
+    </p>
+
+    <div class="grid md:grid-cols-2 gap-10 items-start">
+      
+      <!-- Contact Form -->
+      <div class="bg-white/5 backdrop-blur-md p-8 rounded-2xl shadow-lg border border-white/10">
+        <form action="https://formspree.io/f/xdkdvlyr" method="POST">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+            <div>
+              <label for="name" class="block text-sm text-gray-300 mb-1">Name</label>
+              <input type="text" name="name" id="name" required class="w-full px-4 py-3 rounded-lg bg-white/10 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-400" placeholder="Your name" />
+            </div>
+            <div>
+              <label for="email" class="block text-sm text-gray-300 mb-1">Email</label>
+              <input type="email" name="email" id="email" required class="w-full px-4 py-3 rounded-lg bg-white/10 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-400" placeholder="you@example.com" />
             </div>
           </div>
-        </div>
-
-        <div class="education-item">
-          <div class="education-year">2024 - 2025</div>
-          <div class="education-content">
-            <div class="education-icon">📚</div>
-            <h3>Master of Science (MS)</h3>
-            <h4>Electrical & Computer Engineering</h4>
-            <p class="institution">Clarkson University, Potsdam, NY</p>
-            <p class="timeline">August 2024 - April 2025</p>
-            <p class="gpa"><strong>GPA: 3.84/4.0</strong></p>
-            <div class="education-details">
-              <p><strong>Relevant Coursework:</strong></p>
-              <ul>
-                <li>Control and Management of Electrical Power Distribution (EE 593)</li>
-                <li>Microgrid Design and Control (EE559)</li>
-                <li>Wind Energy Engineering (EE684)</li>
-                <li>Electromechanical Energy Conversion (EE682)</li>
-                <li>Digital Control (EE551)</li>
-                <li>Disruptive Technology (EE600)</li>
-              </ul>
-              <p><strong>Technical Skills Developed:</strong> OpenDSS, Advanced Power Systems Analysis, Renewable Energy Integration</p>
-            </div>
+          <div class="mb-6">
+            <label for="message" class="block text-sm text-gray-300 mb-1">Message</label>
+            <textarea name="message" id="message" rows="5" required class="w-full px-4 py-3 rounded-lg bg-white/10 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-400" placeholder="Your message..."></textarea>
           </div>
-        </div>
-
-        <div class="education-item">
-          <div class="education-year">2018 - 2022</div>
-          <div class="education-content">
-            <div class="education-icon">🔬</div>
-            <h3>Bachelor of Engineering (BE)</h3>
-            <h4>Electrical Engineering</h4>
-            <p class="institution">University of Malaya, Kuala Lumpur, Malaysia</p>
-            <p class="timeline">February 2018 - December 2022</p>
-            <div class="education-details">
-              <p><strong>Professional Certification:</strong> Registered Graduate Engineer (Board of Engineers Malaysia - BEM)</p>
-              <p><strong>Registration No:</strong> G2223542A (Approved: March 16, 2023)</p>
-              <p><strong>Key Competencies:</strong></p>
-              <ul>
-                <li>Circuit analysis and design principles with advanced simulation capabilities</li>
-                <li>Renewable energy technologies and comprehensive system behavior analysis</li>
-                <li>Transmission and distribution system analysis and optimization</li>
-                <li>Fault analysis and protection system design on multi-bus power system models</li>
-                <li>Hybrid renewable energy system modeling, analysis, and performance evaluation</li>
-                <li>On-grid and off-grid renewable energy solution design and implementation</li>
-                <li>Renewable energy integration with existing grid infrastructure</li>
-                <li>Energy storage solutions for enhanced grid stability and reliability</li>
-                <li>Advanced simulation tools: MATLAB, PSpice, HOMER, Proteus</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Research Focus Section -->
-  <section id="research" class="section">
-    <div class="container">
-      <h2 class="section-title">Research Focus</h2>
-      <div class="research-grid">
-        <div class="research-card">
-          <div class="research-icon">⚡</div>
-          <h3>Microgrid Optimization</h3>
-          <p>Economic dispatch and energy management using MILP optimization for integrated renewable systems with battery storage and CHP. Focus on cost minimization, reliability enhancement, and optimal resource allocation for remote communities.</p>
-        </div>
-        <div class="research-card">
-          <div class="research-icon">📊</div>
-          <h3>Load Forecasting</h3>
-          <p>Probabilistic and deterministic forecasting models using CatBoost, Random Forest, and machine learning for enhanced grid planning. Development of 24-hour and 15-minute forecasts incorporating seasonal patterns and meteorological data.</p>
-        </div>
-        <div class="research-card">
-          <div class="research-icon">🌱</div>
-          <h3>Renewable Integration</h3>
-          <p>Solar PV systems, wind energy, and hybrid energy solutions for sustainable building design and net-zero energy facilities. Analysis of wake effects, IEC classification, and optimal system sizing.</p>
-        </div>
-        <div class="research-card">
-          <div class="research-icon">🔋</div>
-          <h3>Energy Storage Systems</h3>
-          <p>Battery energy storage optimization, ultra-capacitor hybrid systems, and advanced power electronics for grid stabilization. Multi-input converter design for improved transient performance.</p>
-        </div>
-        <div class="research-card">
-          <div class="research-icon">🤖</div>
-          <h3>Machine Learning for Energy</h3>
-          <p>AI-driven energy modeling, predictive analytics, and intelligent building energy management systems. Application of advanced algorithms for pattern recognition and optimization.</p>
-        </div>
-        <div class="research-card">
-          <div class="research-icon">🔌</div>
-          <h3>EV Infrastructure</h3>
-          <p>Electric vehicle charging station optimization, performance analysis, and integration with renewable energy sources. Data-driven approaches to minimize downtime and reduce operational costs.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects" class="section section-gray">
-    <div class="container">
-      <h2 class="section-title">Featured Projects</h2>
-      <p class="section-subtitle">Comprehensive research projects demonstrating advanced problem-solving skills and technical expertise</p>
-
-      <div class="project-detailed">
-        <div class="project-header-detailed">
-          <div class="project-icon-large">📈</div>
-          <div>
-            <h3 class="project-title-large">Probabilistic Load Forecasting using CatBoost Quantile Regression</h3>
-            <div class="project-meta">
-              <span class="meta-tag">Machine Learning</span>
-              <span class="meta-tag">Time Series</span>
-              <span class="meta-tag">Energy Forecasting</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-section">
-          <h4>Introduction & Problem Statement</h4>
-          <p>Accurate load forecasting is critical for efficient energy management, grid stability, and economic dispatch planning. Traditional deterministic forecasting methods fail to capture uncertainty in energy consumption patterns, leading to suboptimal scheduling decisions and increased operational costs. This project addresses the need for probabilistic forecasts that provide confidence intervals and uncertainty quantification for building-level thermal and electrical loads.</p>
-        </div>
-
-        <div class="project-section">
-          <h4>Methodology</h4>
-          <p><strong>Data Preprocessing & Feature Engineering:</strong></p>
-          <ul>
-            <li>Analyzed 24-hour and 15-minute resolution building energy consumption data</li>
-            <li>Implemented seasonal encoding using sine and cosine transformations for cyclical temporal patterns</li>
-            <li>Integrated meteorological data (temperature, humidity, solar radiation) as exogenous variables</li>
-            <li>Created holiday and special event indicators to capture anomalous consumption patterns</li>
-            <li>Applied data normalization and handled missing values using advanced imputation techniques</li>
-          </ul>
-          <p><strong>Model Development:</strong></p>
-          <ul>
-            <li>Implemented CatBoost gradient boosting algorithm with quantile regression objectives</li>
-            <li>Configured multiple quantile targets (10th, 25th, 50th, 75th, 90th percentiles) for comprehensive uncertainty estimation</li>
-            <li>Performed hyperparameter tuning using grid search and cross-validation</li>
-            <li>Optimized learning rate, tree depth, and iterations for model performance</li>
-          </ul>
-        </div>
-
-        <div class="project-section">
-          <h4>Results & Outcomes</h4>
-          <ul>
-            <li><strong>Forecasting Accuracy:</strong> Achieved superior prediction intervals with 90% coverage while maintaining narrow uncertainty bounds</li>
-            <li><strong>Performance Metrics:</strong> Significantly improved MAPE and RMSE compared to baseline Random Forest and MVLR models</li>
-            <li><strong>Seasonal Adaptation:</strong> Model successfully captured winter heating peaks and summer cooling loads with high precision</li>
-            <li><strong>Computational Efficiency:</strong> Training time reduced by 40% compared to ensemble methods while maintaining accuracy</li>
-          </ul>
-        </div>
-
-        <div class="project-section">
-          <h4>Impact & Applications</h4>
-          <p>This probabilistic forecasting framework enables:</p>
-          <ul>
-            <li>Risk-aware energy procurement and scheduling decisions for building operators</li>
-            <li>Enhanced microgrid dispatch optimization through uncertainty-aware planning</li>
-            <li>Improved battery storage scheduling with confidence-based charge/discharge strategies</li>
-            <li>Cost savings through reduced over-provisioning and demand charge management</li>
-          </ul>
-        </div>
-
-        <div class="project-links-detailed">
-          <a href="project-load-forecasting.html" class="btn-primary">
-            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
-            View Full Details
-          </a>
-        </div>
+          <button type="submit" class="inline-block bg-purple-600 hover:bg-purple-500 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300">
+            Send Message
+          </button>
+        </form>
       </div>
 
-      <div class="project-detailed">
-        <div class="project-header-detailed">
-          <div class="project-icon-large">💡</div>
-          <div>
-            <h3 class="project-title-large">CHP Microgrid Dispatch Optimization with MILP</h3>
-            <div class="project-meta">
-              <span class="meta-tag">Optimization</span>
-              <span class="meta-tag">MILP</span>
-              <span class="meta-tag">Energy Management</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-section">
-          <h4>Introduction & Problem Statement</h4>
-          <p>Microgrids integrating Combined Heat and Power (CHP) systems with Battery Energy Storage Systems (BESS) require sophisticated optimization to balance electrical and thermal demands while minimizing operational costs. The challenge lies in coordinating multiple energy sources, managing storage charge/discharge cycles, and optimizing grid interactions under time-varying electricity prices and demand profiles.</p>
-        </div>
-
-        <div class="project-section">
-          <h4>Methodology</h4>
-          <p><strong>System Modeling:</strong></p>
-          <ul>
-            <li>Developed comprehensive mathematical model for CHP unit with electrical and thermal output constraints</li>
-            <li>Modeled BESS charge/discharge dynamics with state-of-charge limits and efficiency losses</li>
-            <li>Incorporated grid import/export capabilities with time-of-use pricing structures</li>
-            <li>Implemented thermal storage dynamics and building heat demand profiles</li>
-          </ul>
-          <p><strong>Optimization Framework:</strong></p>
-          <ul>
-            <li>Formulated Mixed-Integer Linear Programming (MILP) problem for 24-hour dispatch optimization</li>
-            <li>Objective function: Minimize total operational cost including fuel, grid electricity, and maintenance</li>
-            <li>Constraints: Power balance, thermal balance, equipment capacity limits, ramp rates, minimum up/down times</li>
-            <li>Binary variables for CHP on/off states and commitment decisions</li>
-            <li>Implemented penalty stack variables for efficient thermal energy management and demand response</li>
-          </ul>
-          <p><strong>Solution Approach:</strong></p>
-          <ul>
-            <li>Utilized Gurobi optimizer for MILP solving with optimality gap tolerance of 1%</li>
-            <li>Implemented rolling horizon optimization for real-time dispatch updates</li>
-            <li>Integrated short-term load forecasting for enhanced scheduling accuracy</li>
-          </ul>
-        </div>
-
-        <div class="project-section">
-          <h4>Results & Outcomes</h4>
-          <ul>
-            <li><strong>Cost Reduction:</strong> Achieved 22% reduction in operational costs compared to baseline rule-based control</li>
-            <li><strong>Efficiency Improvement:</strong> Increased overall system efficiency by optimizing CHP utilization during peak thermal demand periods</li>
-            <li><strong>Grid Interaction:</strong> Reduced peak grid imports by 35% through strategic battery dispatch and CHP scheduling</li>
-            <li><strong>Computational Performance:</strong> Solved 24-hour optimization problems in under 30 seconds, enabling real-time implementation</li>
-            <li><strong>Renewable Integration:</strong> Demonstrated capability to integrate with solar PV forecasts for enhanced sustainability</li>
-          </ul>
-        </div>
-
-        <div class="project-section">
-          <h4>Impact & Applications</h4>
-          <p>This optimization framework provides:</p>
-          <ul>
-            <li>Scalable solution for campus microgrids, industrial facilities, and remote communities</li>
-            <li>Foundation for DOE-GE Vernova collaboration on Tok, Alaska microgrid project</li>
-            <li>Enhanced energy resilience through optimal resource coordination during grid outages</li>
-            <li>Reduced carbon emissions through efficient CHP utilization and renewable integration</li>
-            <li>Economic benefits from reduced electricity bills and demand charge management</li>
-          </ul>
-        </div>
-
-        <div class="project-links-detailed">
-          <a href="https://github.com/KaziMostofa/chp-microgrid-dispatch" target="_blank" rel="noopener" class="btn-primary">
-            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-            View Code on GitHub
-          </a>
-        </div>
-      </div>
-
-      <div class="projects-grid-compact">
-        <div class="project-card-compact">
-          <div class="project-header">
-            <div class="project-icon">🌬️</div>
-            <span class="project-badge">Renewable Energy</span>
-          </div>
-          <h3 class="project-title">71.4 MW Wind Farm Feasibility Analysis</h3>
-          <div class="project-brief">
-            <p><strong>Objective:</strong> Comprehensive design and economic analysis of onshore wind farm in Vietnam</p>
-            <p><strong>Approach:</strong> Wake loss modeling using Jensen model, IEC wind turbine classification, energy yield assessment, and competitive bid pricing strategy development</p>
-            <p><strong>Results:</strong> Optimized turbine layout reducing wake losses by 18%, developed detailed LCOE analysis, and created bankable feasibility report for project financing</p>
-          </div>
-          <div class="project-tech">
-            <span class="tech-tag">MATLAB</span>
-            <span class="tech-tag">Wind Analysis</span>
-            <span class="tech-tag">Economic Modeling</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/KaziMostofa/wind-farm-conceptual-design" target="_blank" rel="noopener" class="project-link">View Project →</a>
-          </div>
-        </div>
-
-        <div class="project-card-compact">
-          <div class="project-header">
-            <div class="project-icon">🔍</div>
-            <span class="project-badge">Data Science</span>
-          </div>
-          <h3 class="project-title">MVLR Seasonal Load Forecasting</h3>
-          <div class="project-brief">
-            <p><strong>Objective:</strong> Deterministic load forecasting with seasonal decomposition for enhanced accuracy</p>
-            <p><strong>Approach:</strong> Multi-variable linear regression with advanced feature engineering, temporal pattern extraction, and weather correlation analysis</p>
-            <p><strong>Results:</strong> Achieved MAPE < 5% for day-ahead forecasts, identified key drivers of seasonal load variation, deployed operational forecasting system</p>
-          </div>
-          <div class="project-tech">
-            <span class="tech-tag">Python</span>
-            <span class="tech-tag">Regression</span>
-            <span class="tech-tag">Time Series</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/KaziMostofa/mvlr-seasonal-load-forecasting" target="_blank" rel="noopener" class="project-link">View Project →</a>
-          </div>
-        </div>
+      <!-- Contact Info -->
+      <div class="bg-white/5 backdrop-blur-md p-8 rounded-2xl shadow-lg border border-white/10">
+        <ul class="space-y-6">
+          <li>
+            <h3 class="text-xl font-semibold text-purple-300 mb-1">📍 Address</h3>
+            <p class="text-gray-300">Clarkson University<br />Potsdam, NY 13699<br />USA</p>
+          </li>
+          <li>
+            <h3 class="text-xl font-semibold text-purple-300 mb-1">✉️ Email</h3>
+            <a href="mailto:mostofk@clarkson.edu" class="text-purple-200 hover:underline">mostofk@clarkson.edu</a>
+          </li>
+          <li>
+            <h3 class="text-xl font-semibold text-purple-300 mb-1">🔗 LinkedIn</h3>
+            <a href="https://www.linkedin.com/in/kmzehad/" target="_blank" class="text-purple-200 hover:underline">linkedin.com/in/kmzehad</a>
+          </li>
+          <li>
+            <h3 class="text-xl font-semibold text-purple-300 mb-1">💻 GitHub</h3>
+            <a href="https://github.com/mostofa-zehad" target="_blank" class="text-purple-200 hover:underline">github.com/mostofa-zehad</a>
+          </li>
+        </ul>
       </div>
 
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Publications Section -->
-  <section id="publications" class="section">
-    <div class="container">
-      <h2 class="section-title">Publications & Research</h2>
-      <p class="section-subtitle">Peer-reviewed publications in leading journals and collaborative research projects</p>
-      <div class="publication-list">
 
-        <div class="publication-item">
-          <div class="publication-header">
-            <h3 class="publication-title">Microgrid Economic Dispatch and Energy Management Optimization for Tok, Alaska</h3>
-            <span class="publication-date">2024 - Present</span>
-          </div>
-          <p class="publication-venue"><strong>Research Collaboration</strong> | U.S. Department of Energy (DOE) & GE Vernova</p>
-          <ul class="publication-highlights">
-            <li>Developed comprehensive microgrid model integrating solar PV, battery storage, and CHP systems for remote Alaska community</li>
-            <li>Implemented penalty stack variables for efficient thermal energy management and cost optimization</li>
-            <li>Integrated short-term load forecasting models to enhance real-time scheduling and dispatch accuracy</li>
-            <li>Designed resilient energy system capable of operating in islanded mode during grid outages</li>
-          </ul>
-        </div>
 
-        <div class="publication-item">
-          <div class="publication-header">
-            <h3 class="publication-title">Optimizing Electric Vehicle Charging Networks: Insights into Efficiency, Utilization, and Sustainability</h3>
-            <span class="publication-date">2024</span>
-          </div>
-          <p class="publication-venue"><em>e-Prime - Advances in Electrical Engineering, Electronics and Energy</em></p>
-          <ul class="publication-highlights">
-            <li>Applied data-driven optimization techniques to analyze 41 months of operational data from 305 EV charging stations</li>
-            <li>Identified best and worst-performing sites through comprehensive utilization and efficiency metrics</li>
-            <li>Developed actionable solutions to improve energy efficiency, minimize downtime, and reduce no-power sessions</li>
-            <li>Quantified CO₂ emission reductions and operational cost savings through infrastructure optimization</li>
-          </ul>
-          <a href="https://www.sciencedirect.com/science/article/pii/S2096511725000842" target="_blank" rel="noopener" class="publication-link">Read Publication →</a>
-        </div>
-
-        <div class="publication-item">
-          <div class="publication-header">
-            <h3 class="publication-title">Machine Learning-Enhanced All-Photovoltaic Blended Systems for Energy-Efficient Sustainable Buildings</h3>
-            <span class="publication-date">2024</span>
-          </div>
-          <p class="publication-venue"><em>Sustainable Energy Technologies and Assessments</em></p>
-          <ul class="publication-highlights">
-            <li>Proposed hybrid solar system combining rooftop PV and solar-integrated glass panels for net-zero school buildings</li>
-            <li>Achieved net-zero energy targets for educational buildings through ML-based optimization algorithms</li>
-            <li>Enhanced energy self-sufficiency and reduced grid dependence through intelligent energy management</li>
-            <li>Validated performance through comprehensive building energy simulations and economic analysis</li>
-          </ul>
-          <a href="https://www.sciencedirect.com/science/article/pii/S2213138824000328" target="_blank" rel="noopener" class="publication-link">Read Publication →</a>
-        </div>
-
-        <div class="publication-item">
-          <div class="publication-header">
-            <h3 class="publication-title">Battery and Ultra-Capacitor Based Hybrid Energy Storage System Utilizing a Multi-Input DC-DC Buck-Boost Converter</h3>
-            <span class="publication-date">2025</span>
-          </div>
-          <p class="publication-venue"><em>International Journal of Renewable Energy Research</em></p>
-          <ul class="publication-highlights">
-            <li>Designed innovative multi-input converter topology combining ultra-capacitor and battery sources</li>
-            <li>Improved transient performance and dynamic response under varying load conditions</li>
-            <li>Demonstrated enhanced power quality and voltage regulation in hybrid energy systems</li>
-            <li>Validated performance through simulation and experimental prototype testing</li>
-          </ul>
-          <a href="https://www.researchgate.net/publication/369708311" target="_blank" rel="noopener" class="publication-link">Read Publication →</a>
-        </div>
-
-        <div class="publication-item">
-          <div class="publication-header">
-            <h3 class="publication-title">Creation of an Internet of Things (IoT) System for the Live and Remote Monitoring of Solar Photovoltaic Facilities</h3>
-            <span class="publication-date">2023</span>
-          </div>
-          <p class="publication-venue"><em>Energy Reports</em></p>
-          <ul class="publication-highlights">
-            <li>Developed low-cost, real-time monitoring system using Arduino and cloud-based platforms</li>
-            <li>Enabled remote diagnostics and performance analysis for solar PV installations</li>
-            <li>Implemented data visualization and alert systems for proactive maintenance</li>
-            <li>Achieved 95% uptime monitoring with sub-minute data refresh rates</li>
-          </ul>
-          <a href="https://www.sciencedirect.com/science/article/pii/S2352484723012969" target="_blank" rel="noopener" class="publication-link">Read Publication →</a>
-        </div>
-
-        <div class="publication-item">
-          <div class="publication-header">
-            <h3 class="publication-title">Rooftop PV or Hybrid Systems and Retrofitted Low-E Coated Windows for Energywise and Self-Sustainable School Buildings</h3>
-            <span class="publication-date">2022</span>
-          </div>
-          <p class="publication-venue"><em>Solar</em></p>
-          <ul class="publication-highlights">
-            <li>Evaluated building performance using retrofitted windows and PV/hybrid energy models</li>
-            <li>Demonstrated feasible pathways to self-sustainability for educational infrastructure in Bangladesh</li>
-            <li>Conducted comprehensive energy simulations and cost-benefit analysis</li>
-            <li>Proposed implementable solutions for developing country contexts</li>
-          </ul>
-          <a href="https://www.mdpi.com/2673-9941/2/4/32" target="_blank" rel="noopener" class="publication-link">Read Publication →</a>
-        </div>
-
-        <div class="publication-item">
-          <div class="publication-header">
-            <h3 class="publication-title">Combination of Sensors-Based Monitoring System and Internet of Things (IoT)</h3>
-            <span class="publication-date">2023</span>
-          </div>
-          <p class="publication-venue"><strong>Book Chapter</strong> | CRC Press</p>
-          <ul class="publication-highlights">
-            <li>Developed IoT-based framework integrating biosensors for remote patient monitoring</li>
-            <li>Enabled real-time health data transmission with emergency alerts for intensive care applications</li>
-            <li>Designed cloud infrastructure for clinician access and comprehensive data analytics</li>
-            <li>Demonstrated cross-domain application of IoT and energy monitoring expertise</li>
-          </ul>
-          <a href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003346678-17" target="_blank" rel="noopener" class="publication-link">Read Publication →</a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Conference Presentations Section -->
-  <section id="conferences" class="section section-gray">
-    <div class="container">
-      <h2 class="section-title">Conference Presentations</h2>
-      <p class="section-subtitle">International presentations showcasing research findings and technical innovations</p>
-      <div class="conferences-grid">
-
-        <div class="conference-item">
-          <div class="conference-icon">🎤</div>
-          <h3>Optimizing Electric Vehicle Charging Networks</h3>
-          <p class="conference-name">10th International Asian Congress on Contemporary Sciences</p>
-          <p class="conference-location">Dubai, UAE | December 2024</p>
-          <div class="conference-details">
-            <p><strong>Presentation Type:</strong> Oral Presentation</p>
-            <p><strong>Key Contributions:</strong></p>
-            <ul>
-              <li>Presented data-driven optimization techniques for 305 EV charging stations</li>
-              <li>Demonstrated methodology for identifying performance gaps and efficiency improvements</li>
-              <li>Shared insights on reducing operational costs and CO₂ emissions through infrastructure optimization</li>
-              <li>Engaged with international researchers on sustainable transportation infrastructure</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="conference-item">
-          <div class="conference-icon">📊</div>
-          <h3>Development of Low-Cost Real-Time Solar PV Power Monitoring System using IoT</h3>
-          <p class="conference-name">7th International Conference on Renewable Energy and Conservation (ICREC 2022)</p>
-          <p class="conference-location">Paris, France | November 2022</p>
-          <div class="conference-details">
-            <p><strong>Presentation Type:</strong> Oral Presentation</p>
-            <p><strong>Key Contributions:</strong></p>
-            <ul>
-              <li>Presented real-time solar energy monitoring system using IoT technology</li>
-              <li>Demonstrated cloud-based platform for tracking voltage, current, power, and temperature</li>
-              <li>Showcased fault detection and remote control capabilities for enhanced grid stability</li>
-              <li>Discussed cost-effective implementation strategies for developing countries</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="conference-item">
-          <div class="conference-icon">🔬</div>
-          <h3>Smart Solar Energy Monitoring System for PV Plant using IoT</h3>
-          <p class="conference-name">33rd International Photovoltaic Science and Engineering Conference (PVSEC-33)</p>
-          <p class="conference-location">Nagoya, Japan | November 2022</p>
-          <div class="conference-details">
-            <p><strong>Presentation Type:</strong> Poster Presentation</p>
-            <p><strong>Key Contributions:</strong></p>
-            <ul>
-              <li>Exhibited comprehensive IoT-based monitoring system for photovoltaic installations</li>
-              <li>Presented remote monitoring capabilities through cloud-based platforms</li>
-              <li>Demonstrated improvements in system reliability and energy management</li>
-              <li>Engaged with leading photovoltaic researchers and industry professionals</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="conference-item">
-          <div class="conference-icon">💡</div>
-          <h3>Development of Low-Cost Real-Time Solar PV Power Monitoring System using IoT</h3>
-          <p class="conference-name">International Technical Postgraduate Conference 2022 (TECH POST 2022)</p>
-          <p class="conference-location">Kuala Lumpur, Malaysia | September 2022</p>
-          <div class="conference-details">
-            <p><strong>Presentation Type:</strong> Oral Presentation</p>
-            <p><strong>Key Contributions:</strong></p>
-            <ul>
-              <li>Presented real-time monitoring system enabling remote PV performance tracking</li>
-              <li>Demonstrated platform for monitoring voltage, current, and power output</li>
-              <li>Showcased improvements in system reliability and sustainable energy development</li>
-              <li>Discussed fault detection and remote control for enhanced grid stability</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills" class="section">
-    <div class="container">
-      <h2 class="section-title">Technical Expertise</h2>
-      <div class="skills-grid">
-
-        <div class="skill-category">
-          <div class="skill-category-header">
-            <div class="skill-icon">💻</div>
-            <h3 class="skill-category-title">Programming & Development</h3>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">Python</span>
-            <span class="skill-tag">MATLAB</span>
-            <span class="skill-tag">C++</span>
-            <span class="skill-tag">R</span>
-            <span class="skill-tag">Arduino IDE</span>
-          </div>
-        </div>
-
-        <div class="skill-category">
-          <div class="skill-category-header">
-            <div class="skill-icon">🔬</div>
-            <h3 class="skill-category-title">Machine Learning & Data Science</h3>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">CatBoost</span>
-            <span class="skill-tag">Random Forest</span>
-            <span class="skill-tag">Regression Models</span>
-            <span class="skill-tag">Time Series Analysis</span>
-            <span class="skill-tag">Data Analytics</span>
-            <span class="skill-tag">Predictive Modeling</span>
-          </div>
-        </div>
-
-        <div class="skill-category">
-          <div class="skill-category-header">
-            <div class="skill-icon">⚙️</div>
-            <h3 class="skill-category-title">Power Systems & Energy Tools</h3>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">PSCAD</span>
-            <span class="skill-tag">OpenDSS</span>
-            <span class="skill-tag">CYME</span>
-            <span class="skill-tag">HOMER Pro</span>
-            <span class="skill-tag">PVSyst</span>
-            <span class="skill-tag">PowerWorld</span>
-            <span class="skill-tag">HelioScope</span>
-            <span class="skill-tag">PSpice</span>
-            <span class="skill-tag">Proteus</span>
-          </div>
-        </div>
-
-        <div class="skill-category">
-          <div class="skill-category-header">
-            <div class="skill-icon">🎯</div>
-            <h3 class="skill-category-title">Optimization & Control</h3>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">MILP</span>
-            <span class="skill-tag">Economic Dispatch</span>
-            <span class="skill-tag">Grid Optimization</span>
-            <span class="skill-tag">Digital Control</span>
-            <span class="skill-tag">Energy Management</span>
-            <span class="skill-tag">Gurobi</span>
-          </div>
-        </div>
-
-        <div class="skill-category">
-          <div class="skill-category-header">
-            <div class="skill-icon">📡</div>
-            <h3 class="skill-category-title">IoT & Communication</h3>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">Arduino</span>
-            <span class="skill-tag">ThingSpeak</span>
-            <span class="skill-tag">MQTT</span>
-            <span class="skill-tag">Wi-Fi/Bluetooth</span>
-            <span class="skill-tag">Cloud Platforms</span>
-            <span class="skill-tag">IFTTT</span>
-          </div>
-        </div>
-
-        <div class="skill-category">
-          <div class="skill-category-header">
-            <div class="skill-icon">📚</div>
-            <h3 class="skill-category-title">Professional Skills</h3>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag">Technical Writing</span>
-            <span class="skill-tag">Research Publication</span>
-            <span class="skill-tag">Project Management</span>
-            <span class="skill-tag">Data Visualization</span>
-            <span class="skill-tag">Leadership</span>
-            <span class="skill-tag">Problem Solving</span>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="certifications-section">
-        <h3 class="subsection-title">Professional Certifications & Memberships</h3>
-        <div class="certification-list">
-          <div class="certification-item">
-            <div class="cert-icon">📜</div>
-            <div class="cert-details">
-              <h4>Registered Graduate Engineer</h4>
-              <p>Board of Engineers Malaysia (BEM)</p>
-              <p class="cert-number">Registration No: G2223542A</p>
-              <p class="cert-date">Approved: March 16, 2023</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="leadership-section">
-        <h3 class="subsection-title">Leadership & Service</h3>
-        <div class="leadership-grid">
-          <div class="leadership-item">
-            <h4>President</h4>
-            <p class="org">Bangladeshi Student Association, Clarkson University (BSACU)</p>
-            <p class="timeline">July 2025 - Present</p>
-            <ul>
-              <li>Organized career development sessions and NIW processing seminar for international students</li>
-              <li>Successfully hosted BSA Night cultural celebration with 200+ attendees</li>
-              <li>Managed event logistics, speaker coordination, and cross-cultural engagement initiatives</li>
-            </ul>
-          </div>
-          <div class="leadership-item">
-            <h4>Joint Secretary</h4>
-            <p class="org">Bangladesh Student Organization Malaysia (BSOM)</p>
-            <p class="timeline">January 2019 - January 2020</p>
-            <ul>
-              <li>Organized donation drives and food distribution for foreign workers during COVID-19 pandemic</li>
-              <li>Provided leadership to achieve accelerated results in social service initiatives</li>
-            </ul>
-          </div>
-          <div class="leadership-item">
-            <h4>Head of Logistics Department</h4>
-            <p class="org">Hult Prize Foundation at University of Malaya</p>
-            <p class="timeline">March 2019 - April 2019</p>
-            <ul>
-              <li>Led strategic planning and execution of logistics for high-impact events</li>
-              <li>Streamlined supply chain operations and managed vendor relations</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="section section-gray">
-    <div class="container">
-      <h2 class="section-title">Get In Touch</h2>
-      <p class="contact-intro">
-        I'm always open to discussing research collaborations, project opportunities, or innovative ideas in renewable energy and smart grid technologies. Let's connect!
-      </p>
-      <div class="contact-grid">
-
-        <div class="contact-item">
-          <div class="contact-icon">
-            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-          </div>
-          <div class="contact-details">
-            <h3>Email</h3>
-            <a href="mailto:mostofk@clarkson.edu">mostofk@clarkson.edu</a>
-            <a href="mailto:mostofa.zehad@gmail.com">mostofa.zehad@gmail.com</a>
-          </div>
-        </div>
-
-        <div class="contact-item">
-          <div class="contact-icon">
-            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-          </div>
-          <div class="contact-details">
-            <h3>Location</h3>
-            <p>Clarkson University</p>
-            <p>Potsdam, NY 13699</p>
-          </div>
-        </div>
-
-        <div class="contact-item">
-          <div class="contact-icon">
-            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
-          </div>
-          <div class="contact-details">
-            <h3>Connect</h3>
-            <div class="contact-links">
-              <a href="https://www.linkedin.com/in/kmzehad/" target="_blank" rel="noopener">LinkedIn</a>
-              <a href="https://github.com/KaziMostofa" target="_blank" rel="noopener">GitHub</a>
-              <a href="https://scholar.google.com/citations?user=7v_fFJYAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
+  </div>
 
   <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2025 Kazi Zehad Mostofa. All rights reserved.</p>
-      <p class="footer-subtitle">PhD Candidate in Electrical & Computer Engineering | Renewable Energy Systems Researcher | Registered Graduate Engineer (BEM)</p>
+  <footer id="footer" class="wrapper style1-alt">
+    <div class="inner">
+      <ul class="menu">
+        <li>&copy; 2025 Kazi Zehad Mostofa. All rights reserved.</li>
+        <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+      </ul>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

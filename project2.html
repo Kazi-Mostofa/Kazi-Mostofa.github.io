@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>EV Charging Infrastructure Optimization | Kazi Zehad Mostofa</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <style>
+    .text-center {
+      text-align: center;
+    }
+    h2 i {
+      color: #4a90e2;
+      margin-right: 0.5rem;
+    }
+    .highlight-box {
+      background-color: #f0f8ff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .stat-card {
+      background: #f8f8f8;
+      padding: 1rem;
+      border-left: 4px solid #4a90e2;
+      border-radius: 8px;
+    }
+    .stat-green { border-color: #28a745; }
+    .stat-yellow { border-color: #ffc107; }
+    .stat-red { border-color: #dc3545; }
+    .environment-box {
+      background: #e6ffed;
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+    }
+    .img-responsive {
+      display: block;
+      margin: 2rem auto;
+      max-width: 75%;
+    }
+  </style>
+</head>
+<body class="is-preload">
+
+  <!-- Header -->
+  <header id="header">
+    <a href="index.html" class="title">Project 2</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="generic.html">Education</a></li>
+        <li><a href="work.html">Experience</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    <!-- Main -->
+    <section id="main" class="wrapper">
+      <div class="inner">
+        <h1 class="major text-center"><i class="fas fa-charging-station"></i> EV Charging Infrastructure Performance Evaluation</h1>
+
+        <!-- Project Summary -->
+<div class="highlight-box">
+  <h3 style="color: black;">Overview</h3>
+  <p style="color: black;">
+    This project evaluates the operational performance of 305 EV stations across a span of 41 months. It investigates charging inefficiencies, identifies bottlenecks, analyzes power 
+    consumption efficiency, highlights no-power session impacts, and performs resilience modeling using statistical 
+    and simulation-based methods. The study offers data-driven insights to optimize station utilization, enhance 
+    energy delivery, and guide infrastructure planning.
+    <p>
+</div>
+
+
+        <!-- Scope -->
+        <h2><i class="fas fa-search"></i> Scope and Methodology</h2>
+        <ul>
+          <li><strong>Stations:</strong> 305 monitored</li>
+          <li><strong>Sessions:</strong> 17,500+</li>
+          <li><strong>Time Period:</strong> 41 months</li>
+          <li><strong>Key Metrics:</strong> Utilization, power loss, CO₂ savings</li>
+          <li><strong>Techniques:</strong> Correlation analysis, regression, Monte Carlo simulation</li>
+        </ul>
+        <img src="images/ev_preprocessing.png" alt="Data Preprocessing" class="img-responsive" />
+
+        <!-- Performance -->
+        <h2><i class="fas fa-bolt"></i> Performance Highlights</h2>
+        <div class="stats-grid">
+  <div class="stat-card stat-green" style="color: black;">
+    <h3 style="color: black;">Power Loss</h3>
+    <p> ⦿ 27% of stations experienced active session failure.</p>
+  </div>
+  <div class="stat-card stat-yellow" style="color: black;">
+    <h3 style="color: black;">Idle Time</h3>
+    <p> ⦿ 38%+ average idle time in urban zones</p>
+  </div>
+  <div class="stat-card stat-red" style="color: black;">
+    <h3 style="color: black;">Provider Risk</h3>
+    <p> ⦿ ChargePoint handled 80% of energy, posing a 19% risk if it fails</p>
+  </div>
+</div>
+
+        <img src="images/ev_charging_time.png" alt="Charging Time Analysis" class="img-responsive" />
+        <img src="images/ev_avg_power.png" alt="Average Power Data" class="img-responsive" />
+
+        <!-- Environmental Impact -->
+        <h2><i class="fas fa-leaf"></i> Environmental Impact</h2>
+<div class="environment-box" style="color: black;">
+  <p>
+    The optimized EV charging infrastructure reduced CO₂ emissions by up to 120 tons/month based on the U.S. EPA factor of 0.43 kg CO₂/kWh.
+  </p>
+
+  <!-- Visual Metrics with Icons -->
+  <div style="display: flex; justify-content: space-around; text-align: center; margin: 1.5rem 0;">
+    <div>
+      <i class="fas fa-gas-pump fa-2x"></i>
+      <p style="margin-top: 0.5rem;"<br> ⦿ 13,000+ L gasoline saved</p>
+    </div>
+    <div>
+      <i class="fas fa-car fa-2x"></i>
+      <p style="margin-top: 0.5rem;"<br>⦿ 18 cars emissions offset</p>
+    </div>
+    <div>
+      <i class="fas fa-tree fa-2x"></i>
+      <p style="margin-top: 0.5rem;"<br> ⦿ 2000 trees equivalent</p>
+    </div>
+    </div>
+
+  <!-- CO2 Trend Graph -->
+  <img src="images/ev_co2_reduction.png" alt="CO2 Reduction" class="img-responsive" />
+
+  <p>
+    ⦿ Renewable-powered stations had emissions as low as 0.02 kg CO₂/kWh, while coal-based grids reached 0.7 kg CO₂/kWh.
+  </p>
+    ⦿ Winter data revealed a 15% rise in session duration but a 10% drop in delivered energy, highlighting seasonal performance gaps.
+  </p>
+</div>
+
+        <!-- Station Rankings -->
+        <h2><i class="fas fa-trophy"></i> Station Rankings</h2>
+        <p>
+  We identified the top-performing, bottom-performing, and no-power-duration stations in terms of energy efficiency and utilization:
+</p>
+<ul>
+  <li><strong>Top stations</strong> (e.g., CP-192841010698) achieved utilization rates above 0.75 and delivered over 50 kWh per session.</li>
+  <li><strong>Bottom 10% stations</strong> contributed less than 5% of network energy output while occupying nearly 20% of the infrastructure.</li>
+  <li><strong>No-power durations</strong> exceeded 45 hours at some stations, indicating major idle time and efficiency loss.</li>
+  <li><strong>Winter months</strong> showed up to 15% longer charging sessions and 10% lower energy delivery due to seasonal inefficiencies.</li>
+</ul>
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+          <img src="images/ev_top_stations.png" alt="Top Performing Stations" style="max-width: 45%; margin: 1rem;" />
+          <img src="images/ev_bottomm_stations.png" alt="Bottom Performing Stations" style="max-width: 45%; margin: 0.5rem;" />
+        </div>
+
+        <!-- Recommendations -->
+        <h2><i class="fas fa-lightbulb"></i> Key Recommendations</h2>
+        <ul>
+          <li>Enable predictive maintenance alerts using ML</li>
+          <li>Diversify charging network operators</li>
+          <li>Incentivize solar-PV integration with fast-charging</li>
+          <li>Adopt dynamic scheduling based on real-time demand</li>
+        </ul>
+
+        <!-- Publication -->
+        <h2><i class="fas fa-book-open"></i> Publication</h2>
+        <p>
+          <strong>Title:</strong> Data-Driven Insights for Optimizing EV Charging Infrastructure<br />
+          <strong>Status:</strong> Under Review @ <i>Global Energy Interconnection</i><br />
+          <strong>Manuscript ID:</strong> GLOEI-D-24-00369R1
+        </p>
+
+        <!-- Back Button -->
+        <ul class="actions">
+          <li><a href="index.html" class="button">← Back to Home</a></li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer" class="wrapper alt">
+    <div class="inner">
+      <ul class="menu">
+        <li>&copy; 2025 Kazi Zehad Mostofa. All rights reserved.</li>
+        <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
